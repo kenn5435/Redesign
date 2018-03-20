@@ -9,6 +9,29 @@
 </head>
 
 <body>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: 'your-app-id',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v2.12'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
     <header>
         <nav>
 
@@ -21,15 +44,32 @@
 
             </div>
             <div class="txt">
+                <h1>Om os</h1>
+                <p>
+                    SSH-Biler er et godt og solidt firma. SSH-Biler er 4. generation, dog med mere end 15 års erfaring i branchen. Vores fokus ligger ikke i et stort og forkromet showroom - men vi har derimod lagt vægt på et nemt og overskueligt set-up til når du skal ind og finde din nye kvalitetsbil hos os. Vi sætter en ære i at du får den rette samt en overskuelig vejledning i dit valg af bil, finansiering og forsikring. Vores overordnede mål er at du tager fra os med en god mavefornemmelse samt er glad og tilfreds med dit nye bilkøb. Årligt sælger vi omkring 300 biler, og har altid mindst 30 biler på lager. Alle salgsklare biler bliver lagt på vores hjemmeside med dertil hørende information samt salgspris. Vi gør en stor ære i at yde den bedst mulige service og sætte vores kunder i centrum, samt altid at levere brugte biler i absolut topklasse til en særdeles konkurrencedygtig pris. Vi kan med stor glæde og ekspertise importere din drømmebil, hvis ikke vi skulle have den på lager. Hos os kan alt lade sig gøre, om du ønsker at købe eller lease, vi skræddersyr gerne din bilhandel.
+                </p>
+
+                <img src="pics/IMG_6035.png" alt="SSH-Bilers showroom">
+
 
             </div>
             <div class="txt">
 
+                <p>Vi benytter værksted og klargøring hos vores kollegaer i Kirstinehøj, da vi ønsker at benytte os af de lokale i nærområdet. Derudover benytter vi os kun af de bedste, så din nye bil altid er nysynet og klargjort ved levering. Udover at levere din drømmebil til en skarp pris så er der ikke noget vi ikke gør os i. Om det er små eller store biler, vi leverer den gerne. Derfor tilbyder vi altid fleksible finansieringsmuligheder når du køber din drømmebil hos os. Vi har fordelagtige samarbejdsaftaler med Santander Bank og Auto Finans der giver særlige kundefordele for dig, der ønsker at låne penge til at finansiere din drømmebil. Derudover giver vi altid en super skarp pris hvis du ønsker at bytte med din nuværende bil. Du er altid velkommen til at ringe eller komme forbi forretningen til en snak eller hvis du har spørgsmål, samt hvis der er en bil som har interesse. Vi gør opmærksom på at bilen kan være til klargøring, ude at køre eller allerede solgt, derfor ønsker vi ikke at vores kunder går forgæves efter deres drømmebil så giv os meget gerne et ring inden i kommer, så kan vi sikre at bilen er hjemme og klar til en prøvetur.
+                </p>
+
             </div>
         </div>
+
         <div class="column_narrow">
+            <h2>Følg os på Facebook!</h2>
+            <a href="https://www.facebook.com/SSHBILER">
+            <img src="pics/facebook.jpg" alt="Facebook">
+            </a>
 
         </div>
+
+
 
     </section>
     <footer>
