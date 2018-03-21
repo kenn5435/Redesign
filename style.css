@@ -37,3 +37,25 @@
     text-align: center;
 
 }
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: black;
+    color: white;
+}
+
+footer figure {
+    text-align: center;
+}
+
+footer img {
+    width: 2vw;
+    height: 2vw;
+
+}
+
+footer figcaption {
+    padding-top: 10px;
+}
