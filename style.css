@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+
 }
 
 body {
@@ -162,6 +164,8 @@ header {
     transform-origin: 8px;
 }
 
+/*Om start*/
+
 #om img {
     width: 100%;
 }
@@ -170,6 +174,9 @@ header {
     font-family: sans-serif;
 }
 
+/*Om slut*/
+
+/*Forside start*/
 
 #forside .column {
     flex-grow: 1;
@@ -203,6 +210,93 @@ header {
 
 }
 
+/*Forside slut*/
+
+/*Kontakt start*/
+
+/*Form start*/
+
+#kontakt form {
+    flex-grow: 2;
+    max-width: 400px;
+    padding: 25px 10px;
+
+}
+
+#kontakt li {
+    margin: 10px 0px;
+    list-style: none;
+
+}
+
+#kontakt .kontakt_form .name {
+    width: 49%;
+
+
+
+}
+
+#kontakt .kontakt_form .email {
+    width: 100%;
+
+}
+
+#kontakt .kontakt_form .besked {
+    width: 100%;
+
+}
+
+#kontakt .kontakt_form input[type=submit],
+.kontakt_form input[type=button] {
+    background: #777777;
+    padding: 10px 18px;
+    border: none;
+    color: #ffffff;
+
+}
+
+#kontakt .kontakt_form input,
+textarea {
+
+
+    border: 1px solid #aaaaaa;
+    padding: 10px;
+
+}
+
+#kontakt .kontakt_form input:focus,
+textarea:focus {
+
+    border: 1px solid #6d6d6d;
+}
+
+
+#kontakt .kontakt_form input[type=submit]:hover {
+    background: #4b4b4b;
+
+
+}
+
+
+/*Form slut*/
+
+#kontakt .row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#kontakt .boks {
+    flex-grow: 1;
+}
+
+
+#kontakt .column_narrow {
+    flex-grow: 1;
+}
+
+/*Kontakt slut*/
+
 /*Footer desktop start*/
 
 footer {
@@ -235,7 +329,6 @@ footer a {
 
 }
 
-/*Footer mobile start*/
 
 /*Media queries*/
 
