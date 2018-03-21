@@ -170,18 +170,7 @@ header {
     font-family: sans-serif;
 }
 
-<<<<<<< HEAD
 
-@media only screen and (max-width: 700px) {
-    .mobile_nav {
-        display: block;
-    }
-    .desktop_nav {
-        display: none;
-    }
-
-
-=======
 #forside .column {
     flex-grow: 1;
     flex-basis: 400px;
@@ -206,6 +195,8 @@ header {
     float: left;
 
 }
+
+/*Footer desktop start*/
 
 #forside .box p {
 
@@ -238,5 +229,17 @@ footer figcaption {
 footer a {
     text-decoration: none;
     color: white;
->>>>>>> origin/master
+
 }
+
+/*Footer mobile start*/
+
+/*Media queries*/
+
+@media only screen and (max-width: 700px) {
+    .mobile_nav {
+        display: block;
+    }
+    .desktop_nav {
+        display: none;
+    }
