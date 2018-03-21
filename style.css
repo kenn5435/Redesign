@@ -170,6 +170,7 @@ header {
     font-family: sans-serif;
 }
 
+<<<<<<< HEAD
 
 @media only screen and (max-width: 700px) {
     .mobile_nav {
@@ -180,4 +181,62 @@ header {
     }
 
 
+=======
+#forside .column {
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+
+#forside .column_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#forside img {
+    width: 100%;
+}
+
+#forside .box {
+    width: 150px;
+    height: 75px;
+    border: 1px solid #FFFFFFFF;
+    background-color: black;
+    color: white;
+    float: left;
+
+}
+
+#forside .box p {
+
+    color: white;
+    text-align: center;
+
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+}
+
+footer figure {
+    text-align: center;
+}
+
+footer img {
+    width: 2vw;
+    height: 2vw;
+
+}
+
+footer figcaption {
+    padding-top: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+>>>>>>> origin/master
 }
