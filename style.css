@@ -42,7 +42,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: black;
     color: white;
 }
 
@@ -58,4 +57,9 @@ footer img {
 
 footer figcaption {
     padding-top: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
