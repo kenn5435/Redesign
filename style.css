@@ -196,8 +196,6 @@ header {
 
 }
 
-/*Footer desktop start*/
-
 #forside .box p {
 
     color: white;
@@ -205,11 +203,15 @@ header {
 
 }
 
+/*Footer desktop start*/
+
 footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     color: white;
+    background: black;
+
 }
 
 footer figure {
@@ -217,13 +219,14 @@ footer figure {
 }
 
 footer img {
-    width: 2vw;
-    height: 2vw;
+    width: 30px;
+    height: 30px;
 
 }
 
 footer figcaption {
     padding-top: 10px;
+    font-size: 1em;
 }
 
 footer a {
@@ -243,3 +246,35 @@ footer a {
     .desktop_nav {
         display: none;
     }
+}
+
+
+@media screen and (max-width: 1280px) {
+    footer figcaption {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    footer figcaption {
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    footer figcaption {
+        font-size: 0
+    }
+
+}
+
+
+@media screen and (max-width: 570px) {
+
+
+    footer img {
+        height: 40px;
+        width: 40px;
+
+    }
+}
