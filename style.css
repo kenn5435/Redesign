@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    padding: 0;
 
 }
 
@@ -244,13 +243,11 @@ header {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 /***Nav mobile slut***/
 
 /*-----------------------------------*/
-=======
+
 /*Om start*/
->>>>>>> origin/master
 
 #om img {
     width: 100%;
@@ -260,14 +257,10 @@ header {
     font-family: sans-serif;
 }
 
-<<<<<<< HEAD
-
-=======
 /*Om slut*/
 
 /*Forside start*/
 
->>>>>>> origin/master
 #forside .column {
     flex-grow: 1;
     flex-basis: 400px;
@@ -416,62 +409,50 @@ footer figcaption {
 footer a {
     text-decoration: none;
     color: white;
-<<<<<<< HEAD
-}
-
-
-@media only screen and (max-width: 800px) {
-=======
-
 }
 
 
 /*Media queries*/
 
-@media only screen and (max-width: 700px) {
->>>>>>> origin/master
+@media only screen and (max-width: 800px) {
     .mobile_nav {
         display: block;
     }
     .desktop_nav {
         display: none;
     }
-<<<<<<< HEAD
-
     .logo {
         margin-top: 12px;
         margin-left: 30px;
-=======
-}
-
-
-@media screen and (max-width: 1280px) {
-    footer figcaption {
-        font-size: 0.8em;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    footer figcaption {
-        font-size: 0.6em;
-    }
-}
-
-@media screen and (max-width: 930px) {
-    footer figcaption {
-        font-size: 0
     }
 
-}
 
-
-@media screen and (max-width: 570px) {
-
-
-    footer img {
-        height: 40px;
-        width: 40px;
-
->>>>>>> origin/master
+    @media screen and (max-width: 1280px) {
+        footer figcaption {
+            font-size: 0.8em;
+        }
     }
-}
+
+    @media screen and (max-width: 1100px) {
+        footer figcaption {
+            font-size: 0.6em;
+        }
+    }
+
+    @media screen and (max-width: 930px) {
+        footer figcaption {
+            font-size: 0
+        }
+
+    }
+
+
+    @media screen and (max-width: 570px) {
+
+
+        footer img {
+            height: 40px;
+            width: 40px;
+
+        }
+    }
