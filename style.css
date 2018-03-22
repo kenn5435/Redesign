@@ -84,8 +84,6 @@ header {
 
 /***Nav desktop slut***/
 
-/*-----------------------------------*/
-
 /***Nav mobile start***/
 
 .mobile_nav {
@@ -244,13 +242,9 @@ header {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 /***Nav mobile slut***/
 
-/*-----------------------------------*/
-=======
 /*Om start*/
->>>>>>> origin/master
 
 #om img {
     width: 100%;
@@ -260,14 +254,10 @@ header {
     font-family: sans-serif;
 }
 
-<<<<<<< HEAD
-
-=======
 /*Om slut*/
 
 /*Forside start*/
 
->>>>>>> origin/master
 #forside .column {
     flex-grow: 1;
     flex-basis: 400px;
@@ -286,7 +276,7 @@ header {
 #forside .box {
     width: 150px;
     height: 75px;
-    border: 1px solid #FFFFFFFF;
+    border: 1px solid #FFFFFF;
     background-color: black;
     color: white;
     float: left;
@@ -298,84 +288,6 @@ header {
     text-align: center;
 }
 
-#biler {
-    margin: 15px;
-}
-
-#biler .row1 {
-    display: block;
-}
-
-#biler .text {
-    padding: 10px;
-}
-
-#biler label {
-    display: inline-block;
-    margin-bottom: 5px;
-    padding: 10px;
-}
-
-#biler .boks {
-    display: block;
-    width: 100%;
-    height: 35px;
-    padding: 10px;
-    background-color: #ffffff;
-    border: 1px solid #ccc;
-}
-
-#biler img {
-    width: 100%;
-    height: auto;
-    padding: 10px;
-}
-
-#biler .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 15px;
-    border-bottom: 1px solid black;
-}
-
-#biler .column_narrow {
-    margin: 1px;
-    width: 35%;
-}
-
-
-#biler .column_wide {
-    margin: 20px;
-    width: 65%;
-}
-
-@media screen and (min-width: 700px) {
-    #biler .row1 {
-        display: flex;
-        justify-content: space-between;
-        padding: 0 30px;
-    }
-    #biler .boks1 {
-        width: 25%;
-        margin: 0 20px;
-    }
-    #biler .boks1 .boks {
-        display: flex;
-        align-items: center;
-    }
-    #biler .boks1 .boks p {
-        margin: 0;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    #biler .row {
-        display: flex;
-        flex-direction: column;
-        max-height: 500px;
-    }
-}
 
 /*Forside slut*/
 
@@ -493,34 +405,27 @@ footer figcaption {
 footer a {
     text-decoration: none;
     color: white;
-<<<<<<< HEAD
 }
 
 
-@media only screen and (max-width: 800px) {
-=======
-
-}
+@media only screen and (max-width: 800px) {}
 
 
 /*Media queries*/
 
 @media only screen and (max-width: 700px) {
->>>>>>> origin/master
     .mobile_nav {
         display: block;
     }
     .desktop_nav {
         display: none;
     }
-<<<<<<< HEAD
-
     .logo {
         margin-top: 12px;
         margin-left: 30px;
-=======
-}
+    }
 
+}
 
 @media screen and (max-width: 1280px) {
     footer figcaption {
@@ -549,6 +454,103 @@ footer a {
         height: 40px;
         width: 40px;
 
->>>>>>> origin/master
     }
 }
+
+/*    Biler starter her*/
+
+#biler {
+    margin: 15px;
+}
+
+#biler .row1 {
+    display: block;
+}
+
+#biler .text {
+    padding: 10px;
+}
+
+#biler p {
+    display: inline;
+}
+
+#biler h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.4em;
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+}
+
+#biler .boks1 {
+    margin-bottom: 15px;
+}
+
+#biler .boks {
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    background-color: rgba(170, 170, 170, 0.15);
+    border: 1px solid #ccc;
+}
+
+#biler img {
+    width: 100%;
+    height: auto;
+    margin-left: 15px;
+}
+
+#biler .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#biler .column_narrow {
+    width: 35%;
+}
+
+
+#biler .column_wide {
+    margin: 22px;
+    width: 65%;
+    text-align: left;
+}
+
+@media screen and (min-width: 700px) {
+    #biler .row1 {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    #biler .boks1 {
+        width: 25%;
+        margin: 0 20px;
+    }
+    #biler .boks1 .boks {
+        display: flex;
+        align-items: center;
+    }
+    #biler .boks1 .boks p {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #biler .row {
+        display: flex;
+        flex-direction: column;
+    }
+    #biler img {
+        width: 250px;
+        height: auto;
+    }
+
+}
+
+/*    Biler slutter her*/
