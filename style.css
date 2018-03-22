@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    padding: 0;
 
 }
 
@@ -244,6 +243,8 @@ header {
 
 /***Nav mobile slut***/
 
+/*-----------------------------------*/
+
 /*Om start*/
 
 #om img {
@@ -408,12 +409,11 @@ footer a {
 }
 
 
-@media only screen and (max-width: 800px) {}
-
 
 /*Media queries*/
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
+
     .mobile_nav {
         display: block;
     }
@@ -453,7 +453,6 @@ footer a {
     footer img {
         height: 40px;
         width: 40px;
-
     }
 }
 
