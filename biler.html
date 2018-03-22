@@ -6,9 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biler</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
 </head>
 
 <body>
+    <!--HEADER start-->
+    <header>
+        <div class="logo">
+            <img src="pics/logo.png" alt="logo" width="200px" height="53px">
+        </div>
+
+
+        <!--Desktop nav start-->
+        <nav class="desktop_nav">
+            <ul>
+                <li>
+                    <a href="biler.html"><img src="pics/nav_icon/biler.png" onmouseover="this.src='pics/nav_icon/biler_w.png'" onmouseout="this.src='pics/nav_icon/biler.png'" height="30" width="30"/><br>Biler</a>
+                </li>
+                <li>
+                    <a href="#"><img src="pics/nav_icon/finans.png" onmouseover="this.src='pics/nav_icon/finans_w.png'" onmouseout="this.src='pics/nav_icon/finans.png'" height="30" width="30"/><br>Finansiering</a>
+                </li>
+                <li>
+                    <a href="om.html"><img src="pics/nav_icon/om.png" onmouseover="this.src='pics/nav_icon/om_w.png'" onmouseout="this.src='pics/nav_icon/om.png'" height="30" width="30"/><br>Om os</a>
+                </li>
+                <li>
+                    <a href="kontakt.html"><img src="pics/nav_icon/kontakt.png" onmouseover="this.src='pics/nav_icon/kontakt_w.png'" onmouseout="this.src='pics/nav_icon/kontakt.png'" height="30" width="30"/><br>Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+        <!--Desktop nav slut-->
+
+        <!--Mobile nav start-->
+        <nav class="mobile_nav">
+            <div class="logo-mobile">
+                <img src="pics/logo.png" alt="logo" width="200px" height="53px">
+            </div>
+            <div id="mblIcon">
+                <a id="hamb" href="#"></a>
+            </div>
+            <ul id="mobile">
+                <li><a href="biler.html"><img src="pics/nav_icon/biler.png" height="30" width="30"/><br>Biler</a></li>
+                <li><a href="#"><img src="pics/nav_icon/finans.png" height="30" width="30"/><br>Finansiering</a></li>
+                <li><a href="om.html"><img src="pics/nav_icon/om.png" height="30" width="30"/><br>Om os</a></li>
+                <li><a href="kontakt.html"><img src="pics/nav_icon/kontakt.png" height="30" width="30"/><br>Kontakt</a></li>
+            </ul>
+        </nav>
+        <!--Mobile nav slut-->
+
+    </header>
+    <!--HEADER slut-->
 
     <section id="biler">
         <div class="text">
@@ -121,7 +167,8 @@
         </div>
     </footer>
 
-
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
