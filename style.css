@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    padding: 0;
+
 
 }
 
@@ -11,12 +11,14 @@ body {
     font-variant: normal;
     margin: 0;
     padding: 0;
+    background: rgba(60, 113, 183, 0.09);
 }
 
 /*-----------------------------------*/
 
 header {
     display: flex;
+    background: white;
 }
 
 .logo {
@@ -244,13 +246,11 @@ header {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 /***Nav mobile slut***/
 
 /*-----------------------------------*/
-=======
+
 /*Om start*/
->>>>>>> origin/master
 
 #om img {
     width: 100%;
@@ -260,43 +260,9 @@ header {
     font-family: sans-serif;
 }
 
-<<<<<<< HEAD
-
-=======
 /*Om slut*/
 
 /*Forside start*/
-
->>>>>>> origin/master
-#forside .column {
-    flex-grow: 1;
-    flex-basis: 400px;
-}
-
-#forside .column_content {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-#forside img {
-    width: 100%;
-}
-
-#forside .box {
-    width: 150px;
-    height: 75px;
-    border: 1px solid #FFFFFFFF;
-    background-color: black;
-    color: white;
-    float: left;
-
-}
-
-#forside .box p {
-
-    color: white;
-    text-align: center;
 
 }
 
@@ -308,40 +274,45 @@ header {
 
 #kontakt form {
     flex-grow: 2;
-    max-width: 400px;
     padding: 25px 10px;
-
+    font-family: 'IBM Plex Sans'
 }
 
 #kontakt li {
-    margin: 10px 0px;
+    margin: 10px 0;
     list-style: none;
-
+    display: flex;
+    justify-content: center
 }
 
-#kontakt .kontakt_form .name {
-    width: 49%;
 
+#kontakt .kontakt_form .name {
+    width: 24.9%;
+    height: 3vw;
 
 
 }
 
 #kontakt .kontakt_form .email {
-    width: 100%;
+    width: 50%;
+    height: 3vw;
 
 }
 
 #kontakt .kontakt_form .besked {
-    width: 100%;
-
+    width: 50%;
+    height: 10vw;
+    font-family: 'IBM Plex Sans';
+    opacity:
 }
 
 #kontakt .kontakt_form input[type=submit],
 .kontakt_form input[type=button] {
-    background: #777777;
+    background: #193A66;
     padding: 10px 18px;
     border: none;
     color: #ffffff;
+    width: 50%;
 
 }
 
@@ -362,7 +333,7 @@ textarea:focus {
 
 
 #kontakt .kontakt_form input[type=submit]:hover {
-    background: #4b4b4b;
+    background: rgba(25, 58, 102, 0.46);
 
 
 }
@@ -373,16 +344,37 @@ textarea:focus {
 #kontakt .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 60px 0px;
+}
 
+#kontakt .row2 {
+    margin: 70px 0px;
 }
 
 #kontakt .boks {
-    flex-grow: 1;
+    width: 10vw;
+    height: 20vw;
+    max-width: 450px;
+    background: rgba(60, 113, 183, 0.13);
+    margin: 25px 25px;
+    flex-basis: 400px;
+    min-height: 275px;
+    text-align: center;
+    padding: 90px 10px;
+
+
 }
 
 
-#kontakt .column_narrow {
-    flex-grow: 1;
+#kontakt .boks img {
+    width: 15%;
+
+
+}
+
+#kontakt .boks p {
+    font-size: 1.1em;
 }
 
 /*Kontakt slut*/
@@ -390,11 +382,12 @@ textarea:focus {
 /*Footer desktop start*/
 
 footer {
+    padding: 10px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     color: white;
-    background: black;
+    background: #193A66;
 
 }
 
@@ -416,32 +409,22 @@ footer figcaption {
 footer a {
     text-decoration: none;
     color: white;
-<<<<<<< HEAD
-}
-
-
-@media only screen and (max-width: 800px) {
-=======
-
 }
 
 
 /*Media queries*/
 
-@media only screen and (max-width: 700px) {
->>>>>>> origin/master
+@media only screen and (max-width: 800px) {
     .mobile_nav {
         display: block;
     }
     .desktop_nav {
         display: none;
     }
-<<<<<<< HEAD
-
     .logo {
         margin-top: 12px;
         margin-left: 30px;
-=======
+    }
 }
 
 
@@ -472,6 +455,5 @@ footer a {
         height: 40px;
         width: 40px;
 
->>>>>>> origin/master
     }
 }
