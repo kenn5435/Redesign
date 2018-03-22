@@ -1,6 +1,7 @@
-// open mobile menu
-$('.js-toggle-menu').click(function (e) {
-    e.preventDefault();
-    $('.mobile-header-nav').slideToggle();
-    $(this).toggleClass('open');
+$(function () {
+    $('#mblIcon, #mobile').click(function () {
+        $('#mobile a').toggleClass('vis');
+        $('#mobile').slideToggle(600);
+        $('#hamb').toggleClass('active');
+    });
 });
